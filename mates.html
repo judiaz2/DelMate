@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DelMate</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Mates</h2>
+        <form id="formularioMates" method="post" action="index.php">
+            <table>
+                <tr>
+                    <th>CODIGO</th>
+                    <th>STOCK</th>
+                    <th>DESCRIPCION</th>
+                    <th>CONTADO</th>
+                    <th>TARJETAS</th>
+                </tr>
+                <tr>
+                    <td><input type="text" id="CODIGO" name="mateID" required></td>
+                    <td><input type="text" id="Stock" name="mateStock" required></td>
+                    <td><input type="text" id="DESCRIPCION" name="mateDescripcion" required></td>
+                    <td><input type="text" id="Contado" name="mateContado" required></td>
+                    <td><input type="text" id="Tarjetas" name="mateTarjetas" required></td>
+                </tr>
+            </table><br>
+            <input type="submit" name="Guardar" value="Guardar" id="envia">
+        </form>
+    </div>
+</body>
+</html>
